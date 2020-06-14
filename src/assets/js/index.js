@@ -1,7 +1,7 @@
+import "../css/style.css";
+
 const root = document.getElementById("root");
 const container = document.createElement("div");
 const header = document.createElement("h2");
-
-header.textContent = "Hello from webpack vanilla template partial";
-container.appendChild(header);
-root.appendChild(container);
+const img = document.createElement("div");
+const imgContainer = document.querySelector("#showcase");
